@@ -21,5 +21,5 @@ build() {
 
 package() {
 	cd "$pkgname"
-	make PREFIX=/usr/local/ MANDIR=/share/man/man1 DESTDIR="$pkgdir/" install
+	make PREFIX=/usr/local/ MANPREFIX=/share/man/man1 DESTDIR="$pkgdir/" install
 }
