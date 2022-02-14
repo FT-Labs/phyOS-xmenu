@@ -1,14 +1,16 @@
+#include "themes/catpuccin.h"
+
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "SF Pro Text:style=Regular:size=14,monospace:size=9",
+	.font = "JetBrains Mono:style=Regular:size=16,monospace:size=9",
 
 	/* colors */
-	.background_color = "#FFFFFF",
-	.foreground_color = "#2E3436",
-	.selbackground_color = "#3584E4",
-	.selforeground_color = "#FFFFFF",
-	.separator_color = "#CDC7C2",
-	.border_color = "#E6E6E6",
+	.background_color = black,
+	.foreground_color = blue,
+	.selbackground_color = blue,
+	.selforeground_color = black,
+	.separator_color = green,
+	.border_color = blue2,
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
