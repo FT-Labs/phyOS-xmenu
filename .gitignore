@@ -1,0 +1,5 @@
+xmenu
+*.o
+pkg/
+*.pkg.tar.xz
+patches
