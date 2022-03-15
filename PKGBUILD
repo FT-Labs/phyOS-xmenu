@@ -11,7 +11,7 @@ makedepends=('git' 'make')
 provides=("xmenu")
 conflicts=("xmenu")
 options=('zipman')
-source=('git://github.com/PhyTech-R0/xmenu-phyOS')
+source=('git+https://github.com/PhyTech-R0/xmenu-phyOS')
 md5sums=('SKIP')
 
 build() {
